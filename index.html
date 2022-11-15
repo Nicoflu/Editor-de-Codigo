@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Save Text As File | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <textarea spellcheck="false" placeholder="Enter something to save" required>Lorem Ipsum es simplemente texto ficticio de la industria de la impresión y la configuración tipográfica. Lorem Ipsuam ha sido el estándar de la industria de textos ficticios desde esta década de 1500, cuando un impresor desconocido tomó una galera de tipo y la revolvió para hacer un tipo de libro de muestras de dólar. Ha sobrevivido no solo cinco siglos, sino también desde el salto a la composición tipográfica electrónica.(Borra y escribe aqui el texto qeu quieras).</textarea>
+      <div class="file-options">
+        <div class="option file-name">
+          <label>Nombre del Archivo</label>
+          <input type="text" spellcheck="false" placeholder="Ingrese Nombre">
+        </div>
+        <div class="option save-as">
+          <label>Salvar Como</label>
+          <div class="select-menu">
+            <select>
+              <option value="text/plain">Archivo de Texto (.txt)</option>
+              <option value="text/javascript">Archivo JS (.js)</option>
+              <option value="text/html">Archivo HTML (.html)</option>
+              <option value="image/svg+xml">Archivo SVG (.svg)</option>
+              <option value="application/msword">Archvio Doc (.doc)</option>
+              <option value="application/vnd.ms-powerpoint">Archivo PPT (.ppt)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <button class="save-btn" type="button">Salvar el Archivo</button>
+    </div>
+    
+  </body>
+</html>
